@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(201, 235, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mainbody {
+    background-color: rgb(144, 198, 255);
+    padding: 19em;
+    border: none;
+    border-radius: 35px;
+    
+}
+
+.constain_right {
+    position: absolute;
+    top: 8px;
+    right: 100px;
+    margin-top: 10%;
+    margin-right:27%;
+}
+
+.constain_left {
+    position: absolute;
+    top: -140px;
+    right: 100px;
+    margin-top: 10%;
+    margin-right:60%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+ img{
+    width: 480px;
+    height: 610px;
+    margin-bottom: 200%;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+ }
+
+.input {
+    background: none;
+    border-color: rgba(6, 92, 183, 0.884);
+    border-radius: 10px;
+    padding-top: 20px;
+    width: 350px;
+    height: 18px;
+    text-align: start;
+}
+
+::placeholder {
+    padding-top: 50%;
+}
+
+.Button {
+    border-width: 1px;
+    border:none;
+    border-radius: 5px;
+    background: rgba(6, 92, 183, 0.884);
+    width: 350px;
+    height: 38px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-weight: bold;
+
+}
+
+.Button:hover {
+    color: rgb(255, 226, 40);
+    background: rgba(191, 6, 6, 0.971);
+    box-shadow: 0px 7px 7px gray;
+}
+
+.Button1{
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    margin-top: 2%;
+    margin-right: 15%;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: rgb(179, 255, 250);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.Button2 {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    margin-top: 2%;
+    margin-right: 8.2%;
+    width: 100px;
+    height: 30px;
+    background: rgba(183, 6, 6, 0.884);
+    border: none;
+    border-radius: 3px;
+    color: aliceblue;
+}
+
+.Button2:hover {
+    color: rgb(0, 0, 0);
+    background: rgba(255, 150, 3, 0.884);
+    box-shadow: 0px 7px 7px gray;
+}
+.Button1:hover {
+    color: rgb(255, 255, 255);
+    background: rgba(183, 6, 6, 0.884);
+    box-shadow: 0px 7px 7px gray;
+}
+

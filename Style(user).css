@@ -1,0 +1,131 @@
+.body{
+    margin:0;
+    padding: 0;
+
+}
+
+.S1{
+    background-image: url(minimal.webp);
+    background-size: cover;
+    position: absolute;
+    padding-right: 10px;
+    width: 98%;
+    height: 80%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-shadow: 20%;
+}
+.Text{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: BoonHome;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Text2{
+    font-size: 50px;
+    color: rgb(233, 153, 153);
+    font-family: BoonHome;
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.constainer{
+    text-align: center;
+    margin-top: 410px;
+
+}
+
+.btn{
+    border: 1px solid rgb(233, 153, 153);
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family:monospace;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    border-radius: 6px;
+}
+
+
+.btn2{
+    
+    color: #000000ae;
+}
+.btn2:hover{
+   color:#fff;
+   background: rgb(255, 132, 18);
+   box-shadow: 0px 7px 7px gray;
+}
+
+.S3{
+    background-color: rgba(214, 253, 255, 0.922);
+    background-size: cover;
+    position: absolute;
+    padding-right: 10px;
+    width: 98%;
+    height: 20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: 50px;
+    margin-bottom: -5rem;
+}
+
+.Text3{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.381);
+    font-family:monospace;
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.Button {
+
+    border-width: 1px;
+    border:none;
+    border-radius: 5px;
+    background: rgb(169, 226, 255);
+    width: 150px;
+    height: 38px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.Button:hover {
+    color: rgb(255, 255, 253);
+    background: rgba(191, 6, 6, 0.971);
+    box-shadow: 0px 7px 7px gray;
+}
+
+.BT{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+   
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+.Button {
+    border-width: 1px;
+    border:none;
+    border-radius: 5px;
+    background: rgba(6, 92, 183, 0.884);
+    width: 150px;
+    height: 38px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+
+.Button:hover {
+    color: rgb(255, 255, 252);
+    background: rgba(191, 6, 6, 0.971);
+    box-shadow: 0px 7px 7px gray;
+}
+
+
+body{
+    background-color: azure;
+}
+.BT{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Text{
+    font-family: monospace;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.H{
+    font-size: 100px;
+    font-weight: bold;
+}
+.I{
+    font-size: 80px;
+}
+
+.J{
+    font-size: 55px;
+}
